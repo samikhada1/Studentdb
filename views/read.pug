@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content 
+    div.detail
+        p ID
+        h1.Id #{studentdb.id}
+        p fullname
+        h2.Fullname #{studentdb.fullname}
+        p bio
+        h3.bio #{studentdb.bio}
+
+        button.btn.back
+            a(href="/list") back

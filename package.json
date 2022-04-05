@@ -1,0 +1,19 @@
+{
+  "name": "studentdb",
+  "version": "1.0.0",
+  "description": "student data base",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usmonov Saidnabi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pug": "^3.0.2",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

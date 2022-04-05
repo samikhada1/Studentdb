@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+    h1.form Adding student into db 
+        if error
+            p.form.err You must to fill Full name and Id form !!!!
+    
+        form.form(action='/create', method='POST')
+                lable.inputL Full Name
+                input.input(placeholder='Full name of student', name='fullname')
+                lable.inputL Id
+                input.input(placeholder='Id of student', name='id')
+                lable.inputL Bio
+                textarea.input(name='bio', id='', cols='30', rows='10', placeholder='Something about student')
+                button.btn.create save
+        
+        button.btn.back
+                    a(href="/") back
